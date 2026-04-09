@@ -1,8 +1,10 @@
-class Animal:
-    def __init__(self,name,size):
-        self.name = name
+class Phone:
+    def __init__(self, color, brand, size):
+        self.color = color
+        self.brand = brand
         self.size = size
-animal1 = Animal("Cat" , "Small")
+P1 = Phone("red" , "samsung" , "5.1")
 
-print(animal1.name)
-print(animal1.size)
+print(P1.color)
+print(P1.size)
+print(P1.brand)

@@ -1,12 +1,13 @@
-class Animal:
+class Phone:
       pass
 
-animal1 = Animal()
+P1 = Phone()
 
-animal1.name = "Cat"
-animal1.size = "Small"
+P1.brand = "samsung"
+P1.size = 5.1
 
-print(animal1.name)
-print(animal1.size)
+
+print(P1.brand)
+print(P1.size)
       
 
